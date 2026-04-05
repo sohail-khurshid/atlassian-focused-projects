@@ -1,0 +1,17 @@
+jira_cloud:
+  domain: "https://your-domain.atlassian.net"
+  user_email: "your-email@example.com"
+  user_token: "your-cloud-api-token"
+  stop_on_failure: false
+  project:
+    key: "CLOUD_PROJ"
+
+jira_datacenter:
+  domain: "https://your-jira-dc.company.com"
+  token: "your-personal-access-token"
+  query: "project = MYPROJ AND status = 'In Progress'"
+  max_results: 50
+
+files:
+  data_file: "jira_issues_response.json"
+  attachments_folder: "attachments"

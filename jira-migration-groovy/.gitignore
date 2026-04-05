@@ -1,0 +1,11 @@
+# Ignore sensitive configuration
+settings.yaml
+
+# Ignore Groovy/Java compilation files
+*.class
+.groovy/
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+*.iml
