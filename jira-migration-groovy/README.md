@@ -30,13 +30,13 @@
 ## Usage
 * To run the scripts, ensure you are in the root directory:
    * To retrieve issues:
-     ```
-        groovy src/RetrieveIssues.groovy
-     ```
-** To upload a new issue:
-```
-   groovy src/UploadIssues.groovy
-```
+  ```
+     groovy src/RetrieveIssues.groovy
+  ```
+   * To upload a new issue:
+   ```
+      groovy src/UploadIssues.groovy
+   ```
 ## DevOps Utility & Enterprise Integration
 While these scripts function as standalone tools, they are designed with the flexibility to be integrated into professional DevOps and ITSM workflows:
 * Jenkins Pipelines: The Groovy logic used here is natively compatible with Jenkinsfiles. These scripts can be easily adapted into Jenkins Shared Libraries to automate ticket creation or status updates during CI/CD build failures or deployments.
